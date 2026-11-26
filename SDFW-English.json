@@ -1,0 +1,113 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "SDFW",
+        "abbreviation": "SDFW",
+        "full": "Los Secretos de las Danzas del FeyWild",
+        "authors": [
+          "Minox & Fiolett"
+        ],
+        "version": "1.0",
+        "color": "E879B9"
+      }
+    ]
+  },
+  "item": [
+    {
+      "name": "Traveler's Boots",
+      "source": "SDFW",
+      "rarity": "common",
+      "entries": [
+        "Crafted from exceptionally comfortable and durable materials, these boots allow their wearer to travel great distances.",
+        "While wearing these boots, the number of hours you can travel on foot each day before being subjected to the rules for a forced march is doubled. Normally, this increases the limit from 8 hours to 16 hours. If the boots have been worked on by a cobbler and the base limit is 10 hours, the limit instead increases to 20 hours."
+      ],
+      "wondrous": true,
+      "weight": 2,
+      "value": 15000
+    },
+    {
+      "name": "Luxurious Attire",
+      "source": "SDFW",
+      "rarity": "uncommon",
+      "entries": [
+        "These elegant garments are adorned with intricate details of Alisin silver that catch the light, enhancing the beauty of the wearer.",
+        "While wearing these garments, you gain the following benefits:",
+        {
+          "type": "entries",
+          "name": "Dazzling Silhouette",
+          "entries": [
+            "While you are in bright or dim light, each creature has disadvantage on the first attack roll it makes against you on each turn. This includes light shed by objects."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Radiant Elegance",
+          "entries": [
+            "While you are in bright light, you have advantage on Charisma (Performance and Deception) checks and Dexterity (Acrobatics) checks."
+          ]
+        }
+      ],
+      "wondrous": true,
+      "reqAttune": "by a creature with a Charisma score of 13 or higher",
+      "value": 62500
+    },
+    {
+      "name": "Dancer's Heels",
+      "source": "SDFW",
+      "rarity": "none",
+      "entries": [
+        "These elegant heels are traditionally worn by members of the mystical lineage of the Danzantes of Glory.",
+        "You can use these heels as improvised weapons, following the normal rules for improvised weapons."
+      ],
+      "type": "G",
+      "weight": 2,
+      "value": 3000
+    },
+    {
+      "name": "Arcane Heels +1",
+      "source": "SDFW",
+      "rarity": "uncommon",
+      "entries": [
+        "These magically imbued heels are worn by members of the mystical lineage of Danzantes. Arcane energy flows through them, enhancing the power of their movements.",
+        "While wearing these heels, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your spells. In addition, your maximum number of Rhythm uses increases by one.",
+        "You can use these heels as improvised weapons, following the normal rules for improvised weapons."
+      ],
+      "wondrous": true,
+      "reqAttune": "by a Danzante",
+      "weight": 2,
+      "bonusSpellAttack": "+1",
+      "bonusSpellSaveDc": "+1"
+    },
+    {
+      "name": "Arcane Heels +2",
+      "source": "SDFW",
+      "rarity": "rare",
+      "entries": [
+        "These magically imbued heels are worn by members of the mystical lineage of Danzante. Arcane energy flows through them, enhancing the power of their movements.",
+        "While wearing these heels, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your spells. In addition, your maximum number of Rhythm uses increases by one.",
+        "You can use these heels as improvised weapons, following the normal rules for improvised weapons."
+      ],
+      "wondrous": true,
+      "reqAttune": "by a Danzante",
+      "weight": 2,
+      "bonusSpellAttack": "+2",
+      "bonusSpellSaveDc": "+2"
+    },
+    {
+      "name": "Arcane Heels +3",
+      "source": "SDFW",
+      "rarity": "very rare",
+      "entries": [
+        "These magically imbued heels are worn by members of the mystical lineage of Danzante. Arcane energy flows through them, enhancing the power of their movements.",
+        "While wearing these heels, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your spells. In addition, your maximum number of Rhythm uses increases by one.",
+        "You can use these heels as improvised weapons, following the normal rules for improvised weapons."
+      ],
+      "wondrous": true,
+      "reqAttune": "by a Danzante",
+      "weight": 2,
+      "bonusSpellAttack": "+3",
+      "bonusSpellSaveDc": "+3"
+    }
+  ]
+}
